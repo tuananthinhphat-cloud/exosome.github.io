@@ -106,3 +106,9 @@ summary { cursor: pointer; font-weight: 600; }
 details p { margin: 10px 0 0; color: var(--muted); }
 
 footer { padding: 32px 0 48px; color: var(--muted); font-size: 14px; border-top: 1px solid var(--line); }
+
+.hero-grid { display: grid; grid-template-columns: 1.1fr 1fr; gap: 40px; align-items: center; }
+.hero-img { width: 100%; height: auto; border-radius: 20px; display: block; box-shadow: 0 12px 40px rgba(107, 45, 123, .15); }
+@media (max-width: 800px) { .hero-grid { grid-template-columns: 1fr; gap: 28px; } }
+.split { display: grid; grid-template-columns: 1fr 1fr; gap: 32px; align-items: center; }
+@media (max-width: 800px) { .split { grid-template-columns: 1fr; } }
